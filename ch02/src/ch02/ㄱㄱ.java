@@ -1,0 +1,19 @@
+package ch02;
+
+import java.util.Scanner;
+
+public class ㄱㄱ {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.printf("두자리 정수를 출력해주세요.");
+		String input = scanner.nextLine();
+		int num = Integer.parseInt(input);  // 입력받은 문자열을 숫자로 변환
+		
+		System.out.printf("입력내용 : "+input);
+		System.out.printf("num=%d%n",num);
+		
+		System.out.println("b=%d%n", b);
+		System.out.println("s=%d%n", s);
+	}
+}
